@@ -10,36 +10,44 @@ a {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
-    
+    gap: 12px;
+    margin: 0;
 }
 
-.header, .header2{
+
+
+.header {
     background-color: #1F2937;
     display: flex;
     flex: 1 0 0;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    padding-bottom: 72px;
 }
 
-.header2 {
-    padding: 24px;
-}
 
 .left, .right {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    justify-content: space-between;
+    padding: 12px;
+    height: 400px;
 }
 
-.left {
-    padding-left: 130px;
-}
 .right {
-    flex-shrink: 0;
+    align-items: flex-end;
 }
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;    
+}
+
+.head-group {
+    gap: 8px;
+}
+
 .hero {
     background-color: #E5E7EB;
+    margin-top: auto;
     
 }
 
@@ -48,15 +56,11 @@ ul {
     font-size: 18px;
 }
 
-.header .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .headline {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 800px;
+    font-weight: 800;
+    margin-top: auto;
 }
 
 .para { 
@@ -68,5 +72,9 @@ button {
     color: white;
     background-color: #3882F6;
     border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
