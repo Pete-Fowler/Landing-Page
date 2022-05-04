@@ -22,12 +22,22 @@ ul {
     align-items: center;
 }
 
+.header2 {
+    padding: 24px;
+}
+
 .left, .right {
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
 }
 
+.left {
+    padding-left: 130px;
+}
+.right {
+    flex-shrink: 0;
+}
 .hero {
     background-color: #E5E7EB;
     
