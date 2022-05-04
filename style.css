@@ -1,6 +1,5 @@
 body {
-    display: flex;
-    flex-direction: column;
+   
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,11 +14,23 @@ ul {
     
 }
 
-.header {
+.header, .header2{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    flex: 1 0 0;
+    justify-content: space-around;
     align-items: center;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.hero {
+    background-color: #E5E7EB;
+    
 }
 
 .header a {
@@ -31,3 +42,21 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.headline {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800px;
+}
+
+.para { 
+    font-size: 18px;
+    color: #EFE7EB;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
