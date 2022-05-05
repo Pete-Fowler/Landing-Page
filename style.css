@@ -29,7 +29,8 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 12px;
+    padding: 48px;
+    padding-top: 12px;
     height: 400px;
 }
 
@@ -42,12 +43,13 @@ ul {
 }
 
 .head-group {
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .hero {
     background-color: #E5E7EB;
-    margin-top: auto;
     
 }
 
@@ -60,7 +62,6 @@ ul {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    margin-top: auto;
 }
 
 .para { 
