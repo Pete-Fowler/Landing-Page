@@ -79,3 +79,47 @@ button {
     padding-right: 30px;
 }
 
+/* Content section */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding: 72px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    padding: 72px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+.card {
+    
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    
+}
+
+.col p {
+    font-size: 18px;
+    color: #bcbdc0;
+    align-self: center;
+}
+

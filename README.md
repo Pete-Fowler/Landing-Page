@@ -1,1 +1,3 @@
 # Landing-Page
+
+In this project I gained layout experience with nested flexboxes and the resulting intricacies of positioninng and alignment. The top header / hero section was the most challenging as I at first struggled with visualizing the overall structure as to how the flexboxes would be nested and whether to try and align content in subsequent horizontal boxes or to use columns to add structure within a larger horizontal. I ended up settling on using the columns.
