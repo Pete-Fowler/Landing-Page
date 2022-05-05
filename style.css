@@ -120,6 +120,35 @@ button {
 .col p {
     font-size: 18px;
     color: #bcbdc0;
-    align-self: center;
+    
+
+}/* Quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-left: 21%;
+    padding-right: 21%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    padding: 5px;
+    line-height: 1.6;
+}
+
+.attribution {
+    font-size: 36px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 5px;
 }
 
