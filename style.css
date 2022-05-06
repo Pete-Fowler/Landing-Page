@@ -206,3 +206,19 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    height: 75px;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
