@@ -1,6 +1,6 @@
 body {
    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -14,12 +14,9 @@ ul {
     margin: 0;
 }
 
-
-
 .header {
     background-color: #1F2937;
     display: flex;
-    flex: 1 0 0;
     justify-content: center;
     padding-bottom: 72px;
 }
@@ -69,7 +66,7 @@ ul {
     color: #EFE7EB;
 }
 
-button {
+.header button {
     color: white;
     background-color: #3882F6;
     border-radius: 5px;
@@ -117,9 +114,9 @@ button {
     
 }
 
-.col p {
+.card-text {
     font-size: 18px;
-    color: #bcbdc0;
+    color: #808388;
     
 
 }/* Quote section */
@@ -152,3 +149,60 @@ button {
     padding: 5px;
 }
 
+/* Call to action section */
+
+.action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    height: 200px;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+}
+
+.action-call button {
+    font-weight: 700;
+    border: 3px solid white;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
