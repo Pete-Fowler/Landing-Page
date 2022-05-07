@@ -34,11 +34,21 @@ ul {
 .right {
     align-items: flex-end;
 }
+
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;    
 }
 
+.logo img {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.hero img {
+    height: 100%;
+}
 .head-group {
     display: flex;
     flex-direction: column;
@@ -47,7 +57,8 @@ ul {
 
 .hero {
     background-color: #E5E7EB;
-    
+    width: 350px; 
+    height: 300px;
 }
 
 .header a {
@@ -93,7 +104,7 @@ ul {
 
 .card-box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 75px;
     padding: 72px;
 }
@@ -112,6 +123,12 @@ ul {
     border: 5px solid #3882F6;
     border-radius: 25px;
     
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 20px;
 }
 
 .card-text {
