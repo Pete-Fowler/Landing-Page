@@ -53,6 +53,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 500px; height: 300px;
 }
 
 .hero {
