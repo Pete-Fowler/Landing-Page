@@ -1,4 +1,4 @@
-# Landing-Page
+<a href='https://pete-fowler.github.io/landing-page/'>Live page</a>
 
 The goal of this exercise was to look at an image of a web page layout created by the Odin Project, and replicate it building the html and css from scratch. In this project I gained layout experience with nested flexboxes and the resulting intricacies of positioning and alignment. The top header / hero section was the most challenging. 
 
